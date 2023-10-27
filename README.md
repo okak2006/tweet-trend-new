@@ -5,3 +5,4 @@ The main folder contains application code.
 The test folder contains test cases.  
 It also contains pom.xml which has all dependences and artfact name and version
 
+# Kentaro Oka - last updated 10/27
