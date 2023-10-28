@@ -1,5 +1,5 @@
 def registry = 'https://okak2006.jfrog.io/'
-def imageName = 'https://okak2006.jfrog.io/artifactory/okak2006-docker-local/ttrend'
+def imageName = 'okak2006.jfrog.io/artifactory/okak2006-docker-local/ttrend'
 def version   = '2.1.2'
 pipeline {
     agent {
@@ -70,7 +70,7 @@ pipeline {
                 }
             }   
         }
-        stage(" Docker Build ") {
+        stage("Docker Build") {
           steps {
             script {
                echo '<--------------- Docker Build Started --------------->'
@@ -79,7 +79,7 @@ pipeline {
             }
           }
         }
-        stage (" Docker Publish "){
+        stage ("Docker Publish"){
             steps {
                 script {
                    echo '<--------------- Docker Publish Started --------------->'  
