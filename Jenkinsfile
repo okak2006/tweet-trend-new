@@ -1,5 +1,5 @@
 def registry = 'https://okak2006.jfrog.io/'
-def imageName = 'okak2006.jfrog.io/artifactory/okak2006-docker-local/ttrend'
+def imageName = 'okak2006.jfrog.io/okak2006-docker-local/ttrend'
 def version   = '2.1.2'
 pipeline {
     agent {
